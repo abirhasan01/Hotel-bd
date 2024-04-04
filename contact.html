@@ -13,17 +13,20 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Navbar start-->
-    <div class="navbar">
-        <div class="navbar-logo">
-            <img class="img" src="./img/Batman-Logo copy.png" alt="" width="200px" />
+    <!-- navbar st -->
+    <div class="nav">
+        <div class="logo">
+            <a href="./index.html">
+                <i class="fa-solid fa-hotel hotel-logo"></i>
+            </a>
         </div>
-        <div class="navbar-link">
-            <ul class="navbar-ul">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
+        <ul id="menuList" class="nav-ul">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars icon" onclick="toggleMenu()"></i>
         </div>
     </div>
     <!-- Navbar end -->
@@ -89,5 +92,7 @@
         </ul>
     </div>
     <!-- Footer ed -->
+    <script src="./script.js"></script>
+
 </body>
 </html>
